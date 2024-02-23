@@ -1,79 +1,107 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
 div {
-    background-color: #666;
+    background-color: #5e5c5c;
     color: rgb(232, 232, 232);
     padding: 25px;
     width: 100%;
     margin-bottom: 20px;
     overflow: hidden;
 }
-nav{
-    display:flex;
+
+img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
     justify-content: space-between;
 }
-nav >ul{
-    display:flex;
+
+nav>ul {
+    display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     text-align: center;
     margin-right: 10px;
 }
 
-nav a{
-    text-decoration:none;
-    color:white;
-    text-align:center;
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 
-.btn-style{
+.btn-style {
     background-color: orange;
-    border-radius:5px;
-    color:#FFf;
-    padding:10px 15px;
-}
+    border-radius: 5px;
+    color: #FFf;
+    padding: 10px 15px;
+    margin-right: 50px;
 
-
-img {
-    float: none;
-    display: block;
-    margin:0 auto;
-}
-.header-h1{
-    text-align:left;
 }
 
 
 
-.about-sec{
-   text-align:center;
+.header-h1 {
+    text-align: left;
 }
 
 
-.photo-style{
+
+.about-sec {
+    text-align: center;
+}
+
+
+.photo-style {
     display: flex;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
 }
-.detiles{
-    text-align:left;
-    font-size:45px;
-    color:#666;
-    background:#927878;
-    padding:0px auto;
+
+.detiles {
+    text-align: left;
+    font-size: 45px;
+    color: #666;
+    background: #927878;
+    padding: 0px auto;
     font-weight: 600;
 }
 
-.ki-korca-tai{
-    text-align:center;
-    font-family:opne sans;
-    color:#c8c7c7;
-    background:#757575;
+.ki-korca-tai {
+    text-align: center;
+    font-family: opne sans;
+    color: #c8c7c7;
+    background: #757575;
 }
-.detiles:hover{
-    color:#fff;
+
+.detiles:hover {
+    color: #fff;
 
 }
-.image-style{
-    border-radius:  150px;
+
+.image-style {
+    border-radius: 150px;
+}
+
+.sec-div {
+    background-color: #efe1e1;
+}
+
+.main {
+    text-align: center;
 }
